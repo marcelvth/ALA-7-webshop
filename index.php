@@ -3,9 +3,9 @@
 	require("includes/connection.php");
 	$id = $_SESSION['id'];
 	if (isset($id)) {
-		$_head = 'header1';
+		$_head = 'pages/userHeader';
 	} else {
-		$_head = 'header';
+		$_head = 'pages/header';
 	}
 
 	require($_head.".php");
