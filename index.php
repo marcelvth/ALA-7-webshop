@@ -11,7 +11,7 @@
 	require($_head.".php");
 
 	if(isset($_GET['page'])){
-		$pages=array("products", "cart","home","menu","uitloggen","inloggen","register", "Account");
+		$pages=array("foto","video","cart","home","uitloggen","inloggen","account");
 		if(in_array($_GET['page'], $pages)) {
 			$_page=$_GET['page'];
 		}else{
